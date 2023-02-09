@@ -2,7 +2,7 @@
 Styling
 */
 * {
-    
+
 }
 .header {
 
@@ -30,4 +30,61 @@ nav.nav-bar ul.nav-list li.list-item {
 
 nav.nav-bar ul.nav-list li.list-item a.nav-list-item-link{
 
+}
+.work-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+article.work-list-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex: 1 0 300px;
+}
+
+.work-list-item-inner:hover {
+    background-position: 0 100%;
+    filter: grayscale(0);
+}
+
+.work-list-item-inner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 10px;
+    min-height: 300px;
+    height: 100%;
+    background-position: 0 0%;
+    transition: filter 280ms linear 0.12s, background-position 1.5s ease-in-out 0.22s;
+    filter: grayscale(1);
+}
+
+.job1 .work-list-item-inner {
+    background-image: url(https://raw.githubusercontent.com/dexit/uni-code-bootcamp-week-1-challenge/main/page_screenshot.png);
+    
+}
+.job2 .work-list-item-inner {
+    background-image: url(https://raw.githubusercontent.com/dexit/uni-code-bootcamp-week-1-challenge/main/page_screenshot.png);
+    
+}
+.job3 .work-list-item-inner {
+    background-image: url(https://raw.githubusercontent.com/dexit/uni-code-bootcamp-week-1-challenge/main/page_screenshot.png);
+    
+}
+.job4 .work-list-item-inner {
+    background-image: url(https://raw.githubusercontent.com/dexit/uni-code-bootcamp-week-1-challenge/main/page_screenshot.png);
+    
+}
+.job5 .work-list-item-inner {
+    background-image: url(https://raw.githubusercontent.com/dexit/uni-code-bootcamp-week-1-challenge/main/page_screenshot.png);
+    
+}
+.job6 .work-list-item-inner {
+    background-image: url(https://raw.githubusercontent.com/dexit/uni-code-bootcamp-week-1-challenge/main/page_screenshot.png);
+    
+}
+.job7 .work-list-item-inner {
+    background-image: url(https://raw.githubusercontent.com/dexit/uni-code-bootcamp-week-1-challenge/main/page_screenshot.png);
+    
 }
