@@ -2,6 +2,7 @@
 Styling
 */
 /* GLOBAL styles */
+
 * { /* This is a wildcard selector that will apply the below styling to all elements*/
     box-sizing: border-box;  /* Sets the box sizing to be aligned to the box border*/
     padding: 0;  /* Set the padding to zero */
@@ -11,17 +12,7 @@ Styling
 body {
     background: beige;
 }
-.header {
 
-}
-
-.header .header-logo {
-
-}
-
-.header .header-logo .logo-title {
-
-}
 
 nav.nav-bar {
     display: flex;
@@ -30,17 +21,7 @@ nav.nav-bar {
     flex-wrap: wrap;
     justify-content: center;
 }
-nav.nav-bar ul.nav-list {
 
-}
-
-nav.nav-bar ul.nav-list li.list-item {
-
-}
-
-nav.nav-bar ul.nav-list li.list-item a.nav-list-item-link{
-
-}
 .work-list {
     display: flex;
     flex-direction: row;
