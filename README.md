@@ -15,19 +15,3 @@ To view the [ Github Pages Live link click here ](https://dexit.github.io/Portfo
 The following image shows the web application's appearance and functionality after i have refactored the code:
 
 ![This is my version.](./page_screenshot.png)
-
-
-ghdfjgkbshifsgiyfgesayfrwe
-ewsrf
-wer
-wer
-we
-rwe
-r
-wer
-we
-r
-wer
-we
-rw
-r
