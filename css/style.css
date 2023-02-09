@@ -1,9 +1,13 @@
 /*  
 Styling
 */
-* {
-
+/* GLOBAL styles */
+* { /* This is a wildcard selector that will apply the below styling to all elements*/
+    box-sizing: border-box;  /* Sets the box sizing to be aligned to the box border*/
+    padding: 0;  /* Set the padding to zero */
+    margin: 0; /* Set the margins to zero */
 }
+
 .header {
 
 }
