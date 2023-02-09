@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +6,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+<div class="container-fluid">
     <header class="header"> 
         <hgroup class="header-logo"> 
             <h1 class="logo-title">d<span class="accented">E</span>x<span class="accented">IT</span></h1> 
@@ -29,14 +28,19 @@
             </ul> 
         </nav> 
     </header>  
-<main class="container-fluid">
+<main class="container">
+    
     <section id="about" class="about-me">
-        <h1 class="about-me-title">About Me</h1>
-              <p class="about-me-text">
-        </p>
+<div class="side about"><div class="about-title">About</div></div>
+    <div class="about-content"><h1 class="work-content-title">About Me</h1>
+            <p class="work-text">
+             </p>
+             
+    </div>
     </section>
-    <section id="work" class="work">
-        <h1 class="work-title">About Me</h1>
+<section id="work" class="work">
+<div class="side work"><div class="work-title">Work</div></div>
+    <div class="work-content"><h1 class="work-content-title">About Me</h1>
             <p class="work-text">
              </p>
              <div class="work-list">
@@ -44,8 +48,9 @@
                   <div class="work-list-item-inner">
                     <div class="work-list-item-title">
     <h4>Inspirational Homes</h4>
+                        <div class="work-list-item-description">PHP, CSS, jQuery, Wordpress</div>
     </div>
-    <div class="work-list-item-description">PHP, CSS, jQuery, Wordpress</div>
+    
                     
                   </div>
                 </article>
@@ -98,7 +103,14 @@
                     
                   </div>
                 </article></div>
-    </section>
-</main>
-</body>
-</html>
+    </div>
+    </section><section id="contact" class="contact">
+<div class="side contact"><div class="contact-title">Contact</div></div>
+    <div class="about-content"><h1 class="work-content-title">About Me</h1>
+            <p class="work-text">
+             </p>
+             
+    </div>
+    </section></main>
+</div>
+</body></html>

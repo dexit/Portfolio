@@ -8,6 +8,9 @@ Styling
     margin: 0; /* Set the margins to zero */
 }
 
+body {
+    background: beige;
+}
 .header {
 
 }
@@ -21,9 +24,12 @@ Styling
 }
 
 nav.nav-bar {
-
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-
 nav.nav-bar ul.nav-list {
 
 }
@@ -91,4 +97,174 @@ article.work-list-item {
 .job7 .work-list-item-inner {
     background-image: url(https://raw.githubusercontent.com/dexit/uni-code-bootcamp-week-1-challenge/main/page_screenshot.png);
     
+}
+
+
+/* Taken from my Inspector Style sheet needs refactoring */
+
+section.work {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+span.accented {
+    font-weight: 900;
+    font-family: 'Open Sans';
+}
+
+li.nav-list-item {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    background: #d97093;
+}
+
+main.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: flex-start;
+    padding: 26px;
+}
+
+section.about-me {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.side.work {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 10%;
+    align-items: flex-end;
+    padding-right: 2%;
+    font-size: 200%;
+    font-family: 'Lato';
+    font-weight: 900;
+    text-transform: uppercase;
+    border-right: 5px solid #d97093;
+    margin-right: 1%;
+}
+
+.work-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex: 1 1 80%;
+    align-content: stretch;
+    margin-bottom: 3%;
+}
+
+
+a.nav-list-item-link {
+    color: white;
+    font-size: 150%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Lato';
+    font-weight: 900;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex: 1 1 80%;
+    align-content: stretch;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 3%;
+}
+
+.side.about {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 10%;
+    align-items: flex-end;
+    padding-right: 2%;
+    font-size: 200%;
+    font-family: 'Lato';
+    font-weight: 900;
+    text-transform: uppercase;
+    border-right: 5px solid #8bc34a;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.work-title {
+    color: #d97093;
+}
+
+.contact-title {
+    color: #673cb5;
+}
+
+h1.logo-title:after {
+    content: ' aka Rihards Mantejs';
+    font-size: 20px;
+    transform: translate(16px, 13px);
+    position: absolute;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-family: 'Lato';
+}
+
+section.contact {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.side.contact {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 10%;
+    align-items: flex-end;
+    padding-right: 2%;
+    font-size: 200%;
+    font-family: 'Lato';
+    font-weight: 900;
+    text-transform: uppercase;
+    border-right: 5px solid #673ab7;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.work-list-item-title {
+    background: #d97093;
+    color: white;
+    padding: 10px;
+    font-family: 'Lato';
+    margin-bottom: 10%;
+    box-shadow: 6px 6px 0px 0px black;
+    transition: margin-bottom 0.2s ease-in-out 0.15s,margin-left 0.15s ease-in-out 0.05s;
+}
+
+.work-list-item:hover .work-list-item-title {
+    margin-bottom: 86px;
+    margin-left: -6px;
+}
+
+.about-title {
+    color: #8cc350;
+}
+
+article.work-list-item.job1 {
+    flex: 2 2 100%;
 }
