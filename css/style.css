@@ -321,4 +321,6 @@ ul.nav-list {
         flex-direction: column;
         justify-content: space-between;
     }
-}
+    .side {
+        align-items: flex-start!important;
+    }
