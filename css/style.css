@@ -248,15 +248,19 @@ section.contact {
     background: #d97093;
     color: white;
     padding: 10px;
+    top:-30px;
+    position: relative;
     font-family: 'Lato';
     margin-bottom: 10%;
     box-shadow: 6px 6px 0px 0px black;
-    transition: margin-bottom 0.2s ease-in-out 0.15s,margin-left 0.15s ease-in-out 0.05s;
+    transition: top 0.2s ease-in-out 0.15s,margin-left 0.15s ease-in-out 0.05s;
 }
 
 .work-list-item:hover .work-list-item-title {
-    margin-bottom: 86px;
-    margin-left: -6px;
+    margin-bottom: unset;
+    margin-left: unset;
+    position: relative;
+    top: -80px;
 }
 
 .about-title {
@@ -285,3 +289,4 @@ ul.nav-list {
     flex-direction: row;
     justify-content: flex-end;
 }
+
