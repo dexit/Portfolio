@@ -11,7 +11,7 @@ Styling
 body {
     background: beige;
 }
-.header {display: inline-flex;flex-direction: row;padding: 1%;width: 100%;justify-content: space-between;background: #d87093;color: white;    flex-wrap: nowrap;}
+.header {display: inline-flex;flex-direction: row;padding: 1%;width: 100%;justify-content: space-between;background: #d87093;color: white;        flex-wrap: nowrap!important;}
 
 .header .header-logo {
 
