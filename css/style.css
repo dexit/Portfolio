@@ -43,13 +43,15 @@ nav.nav-bar ul.nav-list li.list-item a.nav-list-item-link{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
 }
 article.work-list-item {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     flex: 1 0 300px;
     margin: 10px;
+    flex-wrap: wrap;
+    width: 100%!important;
 }
 
 .work-list-item-inner:hover {
@@ -61,17 +63,16 @@ article.work-list-item {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    margin: x;
     min-height: 300px;
     height: 100%;
     background-position: 0 0%;
     transition: filter 280ms linear 0.12s, background-position 1.5s ease-in-out 0.22s;
     filter: grayscale(1);
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     align-items: flex-start;
     justify-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .job12 .work-list-item-inner {
@@ -251,19 +252,19 @@ section.contact {
     background: #d97093;
     color: white;
     padding: 10px;
-    top:-30px;
+    bottom: 0;
     position: relative;
     font-family: 'Lato';
-    margin-bottom: 10%;
+    margin-bottom: 0!important;
     box-shadow: 6px 6px 0px 0px black;
-    transition: top 0.2s ease-in-out 0.15s,margin-left 0.15s ease-in-out 0.05s;
+    transition: bottom 0.2s ease-in-out 0.15s,top 0.15s ease-in-out 0.05s;
 }
 
 .work-list-item:hover .work-list-item-title {
     margin-bottom: unset;
     margin-left: unset;
     position: relative;
-    top: -80px;
+    bottom: 50%;
 }
 
 .about-title {
@@ -293,3 +294,6 @@ ul.nav-list {
     justify-content: flex-end;
 }
 
+.work-list-item:hover {
+    cursor: pointer!important;
+}
