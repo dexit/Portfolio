@@ -342,7 +342,9 @@ ul.nav-list {
 .work-list a {
     text-decoration: none!important;
 }
-
+section h1 {
+    display: none;
+}
 @media (max-width: 768px) {
     html {
 
