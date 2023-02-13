@@ -14,4 +14,4 @@ To view the [ Github Pages Live link click here ](https://dexit.github.io/Portfo
 
 The following image shows the web application's appearance and functionality after i have refactored the code:
 
-![This is the image showing the preview - This is V1.](./dexit.github.io_Portfolio_.png)
+![This is the image showing the preview - This is V1.](./dexit.github.io_Portfolio_2.png)
