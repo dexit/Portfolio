@@ -297,6 +297,9 @@ ul.nav-list {
 .work-list-item:hover {
     cursor: pointer!important;
 }
+.work-list a {
+    text-decoration: none!important;
+}
 
 @media (max-width: 768px) {
     html {
