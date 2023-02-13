@@ -305,7 +305,13 @@ ul.nav-list {
     html {
 
     }
-
+    nav.nav-bar ul.nav-list {
+        display: flex;
+        justify-content: space-between;
+    }
+    a.nav-list-item-link {
+        font-size: 14px;
+    }
     main.container {
         width: 100%;
         display: flex;
