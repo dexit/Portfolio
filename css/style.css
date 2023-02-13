@@ -417,5 +417,7 @@ section h1 {
     .side {
         align-items: flex-start!important;
     }
+    p.work-text {
 
+        flex-direction: column;
 }
