@@ -300,9 +300,7 @@ ul.nav-list {
 
 @media (max-width: 768px) {
     html {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+
     }
 
     main.container {
