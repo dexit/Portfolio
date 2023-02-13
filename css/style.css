@@ -28,9 +28,7 @@ nav.nav-bar {
     justify-content: center;
     flex-wrap: wrap;
 }
-nav.nav-bar ul.nav-list {
-    display: flex;justify-content: flex-end;
-}
+nav.nav-bar ul.nav-list {display: flex;justify-content: flex-end;}
 
 nav.nav-bar ul.nav-list li.list-item {
 
@@ -49,6 +47,7 @@ article.work-list-item {
     flex-direction: row;
     flex-wrap: nowrap;
     flex: 1 0 300px;
+    margin: 16px;
 }
 
 .work-list-item-inner:hover {
@@ -60,12 +59,17 @@ article.work-list-item {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    margin: 10px;
+    margin: unset;
     min-height: 300px;
     height: 100%;
     background-position: 0 0%;
     transition: filter 280ms linear 0.12s, background-position 1.5s ease-in-out 0.22s;
     filter: grayscale(1);
+    padding: 26px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .job1 .work-list-item-inner {
@@ -162,7 +166,7 @@ section.about-me {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: stretch;
     flex: 1 1 80%;
     align-content: stretch;
     margin-bottom: 3%;
@@ -248,19 +252,23 @@ section.contact {
     background: #d97093;
     color: white;
     padding: 10px;
-    top:-30px;
-    position: relative;
     font-family: 'Lato';
-    margin-bottom: 10%;
+    margin-bottom: none;
     box-shadow: 6px 6px 0px 0px black;
-    transition: top 0.2s ease-in-out 0.15s,margin-left 0.15s ease-in-out 0.05s;
+    transition:top 0.2s ease-in-out 0.15s,margin-left 0.15s ease-in-out 0.05s;
+    top: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: auto;
 }
 
 .work-list-item:hover .work-list-item-title {
-    margin-bottom: unset;
-    margin-left: unset;
-    position: relative;
-    top: -80px;
+    margin-bottom: 86px;
+    margin-left: -6px;
 }
 
 .about-title {
@@ -270,23 +278,3 @@ section.contact {
 article.work-list-item.job1 {
     flex: 2 2 100%;
 }
-
-header.header {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-between;
-    padding: 1%;
-    background: #d87093;
-    color: white;
-    align-items: center;
-    align-content: center;
-}
-
-ul.nav-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
