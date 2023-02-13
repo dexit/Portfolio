@@ -310,7 +310,7 @@ ul.nav-list {
         justify-content: space-between;
     }
     a.nav-list-item-link {
-        font-size: 14px;
+        font-size: 14px!important;
     }
     main.container {
         width: 100%;
