@@ -308,6 +308,27 @@ ul.nav-list {
     header.header {
         flex-wrap: wrap!important;
     }
+    nav.nav-bar {
+        transition: all .32s ease-in-out;
+    }
+    ul.nav-list:hover li {
+        opacity: 1;
+        height: auto;
+    }
+    ul.nav-list:hover::after {
+        content: 'CLOSE';
+    }
+    ul.nav-list li {
+        opacity: 0;
+        height: 0;
+    }
+    ul.nav-list::after {
+        content: 'MENU';
+        position: absolute;
+        right: 0;
+        top: 0;
+        transform: translate(-15px, 25px);
+    }
     nav.nav-bar ul.nav-list {
         display: flex;
         justify-content: space-between;
