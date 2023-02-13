@@ -305,6 +305,9 @@ ul.nav-list {
     html {
 
     }
+    header.header {
+        flex-wrap: wrap!important;
+    }
     nav.nav-bar ul.nav-list {
         display: flex;
         justify-content: space-between;
