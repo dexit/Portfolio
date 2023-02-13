@@ -39,6 +39,12 @@ nav.nav-bar ul.nav-list li.list-item {
 nav.nav-bar ul.nav-list li.list-item a.nav-list-item-link{
 
 }
+p.work-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+}
 main p a {
     text-decoration: none;
     color: #d77093;
