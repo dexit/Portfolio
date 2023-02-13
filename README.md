@@ -5,6 +5,8 @@
 
 To achieve seen visual hover effects, i was forced to skip the Figure element.
 
+Setup some basic hover features, added a makeshift hover mobile menu :)
+
 
 ### Live Link
 
