@@ -309,8 +309,26 @@ ul.nav-list {
         display: flex;
         justify-content: space-between;
     }
-    a.nav-list-item-link {
-        font-size: 14px!important;
+    nav.nav-bar ul.nav-list {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        font-size: 14px;
+    }
+    nav.nav-bar a.nav-list-item-link {
+        color: white;
+        font-size: inherit;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Lato';
+        font-weight: 900;
+    }
+    nav.nav-bar li.nav-list-item {
+        padding: 6px;
+        display: flex;
+        flex-direction: column;
+        background: #d97093;
     }
     main.container {
         width: 100%;
