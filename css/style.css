@@ -297,3 +297,28 @@ ul.nav-list {
 .work-list-item:hover {
     cursor: pointer!important;
 }
+
+@media (max-width: 768px) {
+    html {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    main.container {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+        padding: 26px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    section.about-me,section.work,section.contact {
+        display: inline-flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
