@@ -278,7 +278,7 @@ article.work-list-item.job1 {
 header.header {
     display: inline-flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 100%;
     justify-content: space-between;
     padding: 1%;
