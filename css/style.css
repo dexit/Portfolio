@@ -127,7 +127,9 @@ article.work-list-item {
     background-image: url("https://raw.githubusercontent.com/dexit/uni-code-bootcamp-week-1-challenge/main/page_screenshot.png");
     
 }
-
+.work-list-item-title a h4 {
+    color: white;
+}
 .work-list-item-description {
     display: flex;
     flex-direction: column;
