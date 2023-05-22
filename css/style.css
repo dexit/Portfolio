@@ -387,6 +387,9 @@ ul.nav-list {
 section h1 {
     display: none;
 }
+.work-list-item-description {
+    font-size: 90%;
+}
 @media (max-width: 768px) {
     html {
 
