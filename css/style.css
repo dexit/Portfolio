@@ -90,7 +90,7 @@ article.work-list-item {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    min-height: 300px;
+    min-height: 463px;
     height: 100%;
     background-position: 0 0%;
     transition: filter 280ms linear 0.12s, background-position 5.5s ease-in-out 0.22s;
