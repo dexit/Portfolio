@@ -128,7 +128,47 @@ article.work-list-item {
     
 }
 
+.work-list-item-description {
+    display: flex;
+    flex-direction: column;
+}
 
+.work-list-item-title {
+    max-width: 365px;
+}
+
+.multi-link {}
+
+.multi-link a:hover {
+    color: white;
+    text-decoration: underline!important;
+    text-underline-offset: 3px;
+    text-decoration-color: #ffffff66;
+}
+
+.multi-link a {
+    color: white;
+    text-decoration: none;
+    text-underline-offset: 3px;
+    text-decoration-color: #ffffff66;
+}
+
+.multi-link {
+    padding: 16px 0;
+}
+
+.job12 .work-list-item-inner {
+    background-image: url(https://raw.githubusercontent.com/kristiyantefov/MyLittleWebShop/main/assets/images/ezgif.com-gif-maker.gif);
+}
+
+article.work-list-item.job11 {
+    background: url(https://user-images.githubusercontent.com/122907573/225718337-590da48d-7040-4da2-a10b-acad6bb5553c.png);
+    background-size: cover;
+    flex: 1 1 25%;
+}
+.work-list-item-inner {
+    min-height: 463px;
+}
 /* Taken from my Inspector Style sheet needs refactoring */
 
 section.work {
