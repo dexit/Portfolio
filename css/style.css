@@ -75,7 +75,7 @@ main p {
 article.work-list-item {
     display: flex;
     flex-direction: column;
-    flex: 1 0 300px;
+    flex: 1 0 30%;
     margin: 10px;
     flex-wrap: wrap;
     width: 100%!important;
